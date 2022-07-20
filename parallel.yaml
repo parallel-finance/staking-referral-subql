@@ -8,8 +8,8 @@ runner:
   query:
     name: "@subql/query"
     version: "v1.5.1"
-description: Get all staking referral data
-repository: "https://github.com/subquery/subql-starter"
+description: Get all staking referral data from parallel
+repository: "https://github.com/parallel-finance/staking-referral-subql"
 schema:
   file: ./schema.graphql
 network:
