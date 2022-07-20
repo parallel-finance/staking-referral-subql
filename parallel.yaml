@@ -4,10 +4,10 @@ version: 1.0.0
 runner:
   node:
     name: "@subql/node"
-    version: "v1.5.1"
+    version: "v1.0.0"
   query:
     name: "@subql/query"
-    version: "v1.5.1"
+    version: "v1.0.0"
 description: Get all staking referral data from parallel
 repository: "https://github.com/parallel-finance/staking-referral-subql"
 schema:
