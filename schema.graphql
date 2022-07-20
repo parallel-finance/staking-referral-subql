@@ -1,0 +1,11 @@
+type Contribution @entity {
+  id: ID!
+  blockHeight: Int! @index
+  account: String!
+  amount: String!
+  referralCode: String
+  timestamp: Date!
+  transactionExecuted: Boolean!
+  isValid: Boolean!
+  executedBlockHeight: Int @index
+}
